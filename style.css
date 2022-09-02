@@ -18,5 +18,16 @@ p{
     text-align: center;
 }
 
+.teknik{
+    text-align: right;
+}
 
+.kursen{
+    border: 22px solid crimson;
+}
+
+.mig{
+    border: 22px solid white;
+}
+   
 
