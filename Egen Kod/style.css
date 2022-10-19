@@ -2,12 +2,12 @@ body{
     background-color: slategray;
     color: aliceblue;
     display: grid; 
-    grid-template-rows: 60px 60px auto 50px;
+    grid-template-rows: 80px 50px auto 50px;
     grid-template-columns:1fr 1fr;
     grid-template-areas:
     "header header"
     "nav nav"
-    "main main"
+    "main aside"
     "footer footer";
    
 
@@ -17,8 +17,8 @@ body{
 
 header{
     grid-area:header;
-    background-color:whitesmoke;
-    color:black
+    background-color:black;
+    color:whitesmoke
     
 }
 h1{
@@ -34,27 +34,33 @@ nav{
     text-align:center;
     font-family:'Times New Roman', Times, serif;
     color:black;
-    background-color:whitesmoke;
+   
 }
 
 nav ul{
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
+    padding: 0;
+    
 
 
 }
 
 nav li{
     list-style-type:none;
-}
-
-table{
-   
-}
-
-body,th,td,tr{
+    border: 5px;
+    border-radius: 5px;
     
-    width: 25%;
+}
+main{
+    grid-area: main;
+}
+
+
+th,td,tr{
+    width: 50%;
+    padding: 20px;
+    
 }
 table{
     border-spacing: 0px;
@@ -74,4 +80,32 @@ td:nth-child(3){
 
 td:nth-child(4){
     text-align: left;
+}
+
+li:nth-child(1){
+    border: 1px solid;
+}
+li:nth-child(2){
+    border: 1px solid;
+}
+li:nth-child(3){
+    border: 1px solid;
+}
+
+tr:nth-child(2){
+    background-color:black; ;
+}
+
+tr:nth-child(4){
+    background-color: black;
+
+}
+thead:nth-child(1){
+    background-color: black;
+}
+
+#egenkod2 p{
+    font-size: 20px;
+
+
 }
