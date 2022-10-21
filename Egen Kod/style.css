@@ -104,8 +104,34 @@ thead:nth-child(1){
     background-color: black;
 }
 
+#egenkod2{
+    grid-template-columns:1fr;
+    grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+}
+
+#egenkod2 main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 #egenkod2 p{
     font-size: 20px;
-
-
+    text-align: center;
+    
+    
 }
+#egenkod2 h2{
+    text-align: center;
+    font-size: 30px;
+}
+#egenkod2 h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
