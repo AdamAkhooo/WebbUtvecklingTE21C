@@ -104,6 +104,10 @@ thead:nth-child(1){
     background-color: black;
 }
 
+main img{
+    width:"950";
+}
+
 #egenkod2{
     grid-template-columns:1fr;
     grid-template-areas:
