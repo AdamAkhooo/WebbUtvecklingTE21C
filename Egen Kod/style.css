@@ -1,46 +1,46 @@
-body{
-    background-color: slategray;
-    color: aliceblue;
-    display: grid; 
-    grid-template-rows: 80px 50px auto 50px;
-    grid-template-columns:1fr 1fr;
-    grid-template-areas:
+body{  /*Påverkar ett HTML element*/
+    background-color: slategray; /*Påverkar sidans bakgrundsfärg*/
+    color: aliceblue; /*Text färgen*/
+    display: grid;  /*Lägger till en grid*/
+    grid-template-rows: 80px 50px auto 50px; /*anger storlek på rader*/
+    grid-template-columns:1fr 1fr; /*skapar columner*/
+    grid-template-areas: /*berätta vad alla grid delar heter*/
     "header header"
     "nav nav"
     "main aside"
-    "footer footer";
+    "footer footer"; /*namn på grid delar*/
    
 
 }
 
 
 
-header{
-    grid-area:header;
-    background-color:black;
-    color:whitesmoke
+header{  /*sidhuvud*/
+    grid-area:header; /*anger vilken grid*/
+    background-color:black; /*grid färgen*/
+    color:whitesmoke /*text färg*/
     
 }
 h1{
-    text-align: center;
+    text-align: center; /*rubrikens text blir centererat*/
 }
 
 a{
-    text-align:center;
+    text-align:center; 
 }
 
 nav{
-    grid-area:nav;
-    text-align:center;
-    font-family:'Times New Roman', Times, serif;
-    color:black;
+    grid-area:nav; /*anger vilken grid*/
+    text-align:center; 
+    
+    
    
 }
 
 nav ul{
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
-    padding: 0;
+    padding: 0; /*innermarginal*/
     
 
 
@@ -50,6 +50,7 @@ nav li{
     list-style-type:none;
     border: 5px;
     border-radius: 5px;
+    color:black;  /*ger min border en färg*/
     
 }
 main{
@@ -138,4 +139,5 @@ main img{
 }
 
 
+    
 
