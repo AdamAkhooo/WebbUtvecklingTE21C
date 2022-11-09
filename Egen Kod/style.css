@@ -30,7 +30,7 @@ a{
 }
 
 nav{
-    grid-area:nav; /*anger vilken grid*/
+    grid-area:nav; /*namn som griden kan använda i områden*/
     text-align:center; 
     
     
@@ -54,25 +54,25 @@ nav li{
     
 }
 main{
-    grid-area: main;
+    grid-area: main; 
 }
 
 
 th,td,tr{
-    width: 50%;
-    padding: 20px;
+    width: 50%; /*sätter en bredd på element*/
+    padding: 20px; /*skapar utrymme runt ett element*/
     
 }
 table{
-    border-spacing: 0px;
+    border-spacing: 0px; /*CSS-egenskapen med kantavstånd anger avståndet mellan gränserna*/
 }
 th:nth-child(1){
-    text-align: left;
+    text-align: left; /*lägger texten till vänster sida*/
 }
 
 
 td:nth-child(2){
-    text-align: center;
+    text-align: center; /*lägger texten i mitten*/
 }
 
 td:nth-child(3){
@@ -84,7 +84,7 @@ td:nth-child(4){
 }
 
 li:nth-child(1){
-    border: 1px solid;
+    border: 1px solid; /*gör min border till hela sträck*/
 }
 li:nth-child(2){
     border: 1px solid;
@@ -106,7 +106,7 @@ thead:nth-child(1){
 }
 
 main img{
-    width:"950";
+    width: 950px;
 }
 
 #egenkod2{
@@ -124,7 +124,7 @@ main img{
 }
 
 #egenkod2 p{
-    font-size: 20px;
+    font-size: 20px; /*anger storleken på fonten*/
     text-align: center;
     
     
@@ -137,6 +137,9 @@ main img{
     text-align: center;
     font-size: 30px;
 }
+
+
+
 
 
     
